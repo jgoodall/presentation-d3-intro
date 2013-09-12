@@ -266,15 +266,12 @@ git clone https://github.com/mbostock/d3.git
 ## Fire up a web server
 
 * Using Python's built in web server
-
 ```
 python -m SimpleHTTPServer 8000
 # For Pythong 3+, use http.server instead
 python -m http.server 8000
 ```
-
 * Using [nodejs](http://nodejs.org/), and a web server, such as [http-server](https://github.com/nodeapps/http-server)
-
 ```
 npm install http-server -g
 http-server -p 8000
