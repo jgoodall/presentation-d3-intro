@@ -8,6 +8,8 @@
 
 <small>http://jgoodall.me/</small>
 
+<small>[http://jgoodall.me/presentation-d3-intro/](http://jgoodall.me/presentation-d3-intro/)</small>
+
 ---
 
 ## d3
@@ -368,3 +370,5 @@ bower list
 <small>jgoodall@ornl.gov</small>
 
 <small>http://jgoodall.me/</small>
+
+<small>[http://jgoodall.me/presentation-d3-intro/](http://jgoodall.me/presentation-d3-intro/)</small>
