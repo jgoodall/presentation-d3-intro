@@ -11,6 +11,6 @@ Or you can use `grunt server`.
 To merge into `gh-pages` branch:
 
     git checkout gh-pages
-    git merge
+    git merge master
     git checkout master
     git push --all
