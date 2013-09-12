@@ -2,11 +2,11 @@
 
 <br><br>
 
-John Goodall
+#### John Goodall
 
-jgoodall@ornl.gov
+<small>jgoodall@ornl.gov</small>
 
-http://jgoodall.me/
+<small>http://jgoodall.me/</small>
 
 ---
 
@@ -359,13 +359,12 @@ bower list
 
 <br>
 
-#### Thank you
+### Thank you
 
 <br>
 
-John Goodall
+#### John Goodall
 
-jgoodall@ornl.gov
+<small>jgoodall@ornl.gov</small>
 
-http://jgoodall.me/
-
+<small>http://jgoodall.me/</small>
