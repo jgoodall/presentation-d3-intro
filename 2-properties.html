@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+
+// 1. select all p elements (there are none)
+// 2. then bind some data to the elements - data always expects an [array], 
+//    d3's selectAll returns a placeholder since there are no p elements yet
+// 3. do something with incoming data via the enter() method. since there are
+//    no p elements, everything after enter() will run for the length of data
+// 4. append a new element for each datum
+// 5. add some style
+// 6. set the text of the element
+d3.selectAll("p")
+    .data([4, 6, 8, 10, 14, 16, 24, 42, 60])
+    .enter()
+  .append("p")
+    .style("font-size", function(d) { return d + "px"; })
+    .text(function(d, i) { return 'Paragraph ' + i + ' is ' + d + ' pixels.'; });
+
+</script>
+</body>

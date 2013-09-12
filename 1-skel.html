@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script>
+  
+console.log('append the svg to the body of the page');
+
+var svg = d3.select("body")
+  .append("svg")
+    .attr("width", 650)
+    .attr("height", 500)
+  .append("g")
+    .attr("transform", "translate(" + 100 + "," + 240 + ")");  // add some margins
+
+svg.append('text')
+    .style('font-size', '60px') // make the text big
+    .style('fill', 'green')     // to color svg text, use fill
+    .text('d3 v' + d3.version + ' is loaded...'); // write some text
+ 
+</script>
+</body>
