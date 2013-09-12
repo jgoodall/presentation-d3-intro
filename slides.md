@@ -276,8 +276,10 @@ python -m http.server 8888 &
 * Using [nodejs](http://nodejs.org/), using [http-server](https://github.com/nodeapps/http-server)
 ```
 npm install http-server -g
-alias web='/usr/local/share/npm/bin/http-server -p 8000'
-cd PROJECT_DIR && web
+/usr/local/share/npm/bin/http-server -p 8000
+# or create an alias
+alias ws='/usr/local/share/npm/bin/http-server -p 8000'
+ws
 ```
 
 ---
