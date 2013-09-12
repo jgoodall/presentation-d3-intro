@@ -100,11 +100,11 @@ d3.select(this)  // selects the referenced node in an event listener
 
 d3.select('#anId')  // selects the element with the id of 'anId'
 
-d3.selectAll('.circles')  // selects all elements with class of 'circle'
+d3.selectAll('.circles')  // selects all elements with class 'circle'
 
 d3.selectAll('p')  // selects all paragraph elements on a page
 
-d3.selectAll('div.content')  // selects all divs with a class of 'content'
+d3.selectAll('div.content')  // selects all divs with class 'content'
 ```
 
 ---
