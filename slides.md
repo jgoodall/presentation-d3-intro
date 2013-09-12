@@ -1,4 +1,4 @@
-## Introduction to d3
+## d3 is magic
 
 <br><br>
 
@@ -52,7 +52,7 @@ d3.select('body')
     .text('d3 version ' + d3.version + ' is loaded.');
 
 ```
-<small>[run](http://bl.ocks.org/jgoodall/6538221)</small>
+<small>[run](./code/1-skel.html)</small>
 
 ---
 
@@ -124,7 +124,7 @@ d3.selectAll("p")
 
 ```
 
-<small>[run](http://bl.ocks.org/jgoodall/6538427)</small>
+<small>[run](./code/2-properties.html)</small>
 
 ---
 
@@ -236,9 +236,9 @@ circle.exit().transition()
 
 ## Working through an example
 
-1. [a basic scatterplot](http://bl.ocks.org/jgoodall/6539774)
-2. [scales and axes](http://bl.ocks.org/jgoodall/6539788)
-3. [transitions and animation](http://bl.ocks.org/jgoodall/6539804)
+1. [a basic scatterplot](./code/3-scatter-basic.html)
+2. [scales and axes](./code/4-scatter-scales.html)
+3. [transitions and animation](./code/5-scatter-animated.html)
 
 ---
 
@@ -355,11 +355,13 @@ bower list
 
 ---
 
-## Introduction to d3
+## d3 is magic
+
+<br>
 
 #### Thank you
 
-<br><br>
+<br>
 
 John Goodall
 
